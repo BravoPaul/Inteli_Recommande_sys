@@ -1,0 +1,5 @@
+#surefire
+#Sun Jan 15 09:49:36 CET 2017
+user.dir=/home/hadoop/workspace_Kafka/kafka-demo
+localRepository=/home/hadoop/.m2/repository
+basedir=/home/hadoop/workspace_Kafka/kafka-demo
