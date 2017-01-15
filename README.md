@@ -19,3 +19,4 @@ linkedin 会把每个用户点击了什么，打开了哪个也页面实时的�
 3.推送模块
 监视Zookeeper服务器推送策略节点，如果有改变，选择刚刚改变的策略来进行推送
 UML如下：
+![image](https://github.com/BravoPaul/Air_Spring_Hadoop/blob/master/tu.png)
