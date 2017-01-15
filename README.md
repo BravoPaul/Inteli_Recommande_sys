@@ -19,4 +19,6 @@ linkedin 会把每个用户点击了什么，打开了哪个也页面实时的�
 3.推送模块
 监视Zookeeper服务器推送策略节点，如果有改变，选择刚刚改变的策略来进行推送
 UML如下：
-![image](https://github.com/BravoPaul/Air_Spring_Hadoop/blob/master/tu.png)
+![image](https://github.com/BravoPaul/Inteli_Recommande_sys/blob/master/model.png)
+
+代码也不是很难，里面我都比较详细的注释了主要代码的用途，测试了一下，主要功能没有问题。因为我用户行为的数据的处理都很简单用一个while来搞定，但在实际的工程中经常用MapReduce来进行数据的处理。所以如果有兴趣的话，可以将他做成一个web程序，然后在web前端进行压力测试，那到的数据用MapReduce处理后再通过Kafka发送给消息的消费者，而且可以根据人们在web上不同页面操作制定不用的topic，中间的环节应该不需要有太多大的修改，最后推送的环节还需要给到Web前端，所以需要和Web架构集成一下。能力有限，如有什么好的建议请告诉我。
